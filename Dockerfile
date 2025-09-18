@@ -1,4 +1,4 @@
-FROM node:lts
+FROM node:lts-slim
 
 RUN npm install -g sass \
   && mkdir /in /out
